@@ -1,0 +1,97 @@
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+}
+
+/*only logo*/
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+/* end of only logo */
+nav  {
+
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+
+}
+
+
+/*content*/
+
+.content {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  width: 630px;
+  flex-direction: column;
+}
+
+.second {
+  width: 300px;
+}
+
+.third {
+  width: 240px;
+}
+
+div p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/*background images */
+
+.mother {
+  background-image: url(../images/img-story-main.png);
+}
+
+.fall {
+  background-image: url(../images/img-story-1.png);
+}
+
+.camera{
+  background-image: url(../images/img-story-2.png);
+}
+
+.cats{
+  background-image: url(../images/img-story-3.png);
+}
+
+.image span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.image, .image div{
+  display: flex;
+}
+
+.image.mother span {
+  font-size: 40px;
+}
