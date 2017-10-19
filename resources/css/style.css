@@ -95,3 +95,6 @@ div p {
 .image.mother span {
   font-size: 40px;
 }
+div, header {
+  border: 1px solid black;
+}
